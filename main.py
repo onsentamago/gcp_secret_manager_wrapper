@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def main() -> str:
-    gcp = GCP('91894046703')
+    gcp = GCP('00000000000')
     return gcp.get_secret('test-secret', 'latest')
 
 
