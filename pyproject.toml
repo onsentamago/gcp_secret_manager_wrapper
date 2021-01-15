@@ -2,9 +2,8 @@
 name = "gcp_secret_manager_wrapper"
 version = "0.0.1"
 description = "Python wrapper for Secret Manager"
-author = "onsentamago"
-author_email = "ontama_minimal@protonmail.com"
-license = "AGPL"
+authors = "onsentamago <ontama_minimal@protonmail.com>"
+license = "AGPL-3.0-or-later"
 readme = "README.md"
 python = "^3.8"
 homepage = "https://github.com/onsentamago/gcp_secret_manager_wrapper"
@@ -17,11 +16,9 @@ classifiers = [
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
     'Topic :: Software Development :: Cloud Tools',
-    'License :: OSI Approved :: AGPL License',
     'Programming Language :: Python :: 3.8',
 ]
 
-# Requirements
 [dependencies]
 google-cloud-secret-manager = "^2.1.0"
 
