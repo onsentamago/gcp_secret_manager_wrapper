@@ -1,0 +1,1 @@
+from gcp_secret_manager_wrapper.gcp import GCP
