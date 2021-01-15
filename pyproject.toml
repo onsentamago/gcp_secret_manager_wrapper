@@ -2,9 +2,8 @@
 name = "gcp_secret_manager_wrapper"
 version = "0.0.1"
 description = "Python wrapper for Secret Manager"
-authors = [
-    "onsentamago <ontama_minimal@protonmail.com>"
-]
+author = "onsentamago"
+author_email = "ontama_minimal@protonmail.com"
 license = "AGPL"
 readme = "README.md"
 python = "^3.8"
