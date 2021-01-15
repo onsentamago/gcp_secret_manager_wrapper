@@ -5,7 +5,7 @@ description = "Python wrapper for Secret Manager"
 authors = "onsentamago <ontama_minimal@protonmail.com>"
 license = "AGPL-3.0-or-later"
 readme = "README.md"
-python = "^3.8"
+python = "^3.9"
 homepage = "https://github.com/onsentamago/gcp_secret_manager_wrapper"
 repository = "https://github.com/onsentamago/gcp_secret_manager_wrapper"
 documentation = "https://github.com/onsentamago/gcp_secret_manager_wrapper"
@@ -16,7 +16,7 @@ classifiers = [
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
     'Topic :: Software Development :: Cloud Tools',
-    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
 ]
 
 [dependencies]
