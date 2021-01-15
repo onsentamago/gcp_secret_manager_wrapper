@@ -22,13 +22,6 @@ classifiers = [
 [dependencies]
 google-cloud-secret-manager = "^2.1.0"
 
-[scripts]
-poetry = "infer_pyproject.cli:main"
-
 [build-system]
-requires = [
-    "setuptools >= 35.0.2",
-    "setuptools_scm >= 2.0.0, <3",
-    "wheel"
-]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
